@@ -1,12 +1,15 @@
-extends KinematicBody2D
+extends Area2D
+
+signal player_hit
 
 const MARGIN = 5
 export (int) var speed = 250
 
 onready var sprite = $Sprite
+onready var collision_shape = $CollisionShape2D
 
-var opened_eye = preload("res://star-gazwer-openeye.png")
-var closed_eye = preload("res://star-gazwer-closedeye.png")
+var opened_eye = preload("res://sprites/star-gazwer-openeye.png")
+var closed_eye = preload("res://sprites/star-gazwer-closedeye.png")
 
 var player_half_width
 var screen_width
@@ -31,4 +34,14 @@ func _process(delta):
 		sprite.flip_h = velocity.x < 0
 		position += velocity * delta
 		position.x = clamp(position.x, MARGIN + player_half_width, screen_width - player_half_width)
-	
+
+func start(start_position):
+	position = start_position
+	show()
+	collision_shape.disabled = false
+
+func _on_Player_area_entered(area):
+	collision_shape.disabled = true
+	hide()
+	print("player has been killed")
+	emit_signal("player_hit")

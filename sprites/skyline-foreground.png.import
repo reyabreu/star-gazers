@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/star-gazwer-openeye.png-093524e922deae7a98fc0c78b34130c7.stex"
+path="res://.import/skyline-foreground.png-53a3fa775786b45ec637962e3ef85bc8.stex"
 
 [deps]
 
-source_file="res://star-gazwer-openeye.png"
-dest_files=[ "res://.import/star-gazwer-openeye.png-093524e922deae7a98fc0c78b34130c7.stex" ]
+source_file="res://sprites/skyline-foreground.png"
+dest_files=[ "res://.import/skyline-foreground.png-53a3fa775786b45ec637962e3ef85bc8.stex" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/down-eater-closed.png-829301e766abe0620b473a5463a3ec85.stex"
+path="res://.import/down-eater-open.png-745940b68ecd09ac6484154413b1b91c.stex"
 
 [deps]
 
-source_file="res://down-eater-closed.png"
-dest_files=[ "res://.import/down-eater-closed.png-829301e766abe0620b473a5463a3ec85.stex" ]
+source_file="res://sprites/down-eater-open.png"
+dest_files=[ "res://.import/down-eater-open.png-745940b68ecd09ac6484154413b1b91c.stex" ]
 
 [params]
 

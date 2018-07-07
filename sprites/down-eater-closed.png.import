@@ -2,12 +2,12 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/star-gazwer-closedeye.png-f9385cfa402380c639f4ca2d69db1910.stex"
+path="res://.import/down-eater-closed.png-c1ce9eee6e3affb82b49cade710ef1fa.stex"
 
 [deps]
 
-source_file="res://star-gazwer-closedeye.png"
-dest_files=[ "res://.import/star-gazwer-closedeye.png-f9385cfa402380c639f4ca2d69db1910.stex" ]
+source_file="res://sprites/down-eater-closed.png"
+dest_files=[ "res://.import/down-eater-closed.png-c1ce9eee6e3affb82b49cade710ef1fa.stex" ]
 
 [params]
 
